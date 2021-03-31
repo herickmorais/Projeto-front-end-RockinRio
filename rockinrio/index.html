@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Rock in Rio</title>
+  <link href="styles/styleLogin.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>  
+  <div id="divLogin">
+    <container id="cont1">
+      <h2>Bem vindo! Estamos juntos nessa ! #todospelorock</h2>
+      <img id="logoRio" src="images/logo_rio 1.png" alt="logo_rio">
+      <h3>O Rock não vem do palco, vem de você !</h3>
+    </container>
+
+    <container id="cont2">
+      <img src="images/logo_rockinrio 2.png" alt="logo_rio2">
+      <h3>Login</h3>
+
+      <form>
+        <label for="email">Email</label>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <input type="email" id="email" class="inputText">
+        </div>
+
+        <label for="password">Senha</label>
+        <div>
+          <i class="fas fa-unlock-alt"></i>
+          <input type="password" id="password" class="inputText">
+        </div>
+
+        <div id="rememberPass">
+          <input type="checkbox" id="checkPass">
+          <label for="checkPass">Lembrar meus dados</label>
+        </div>
+        <input type="button" id="btnLogin" value="Entrar">
+
+        <div id="forgetPass">
+          <span>Esqueceu sua senha?</span>
+          <span><a href="https://www.google.com.br">Clique aqui</a></span>
+        </div>
+      </form>
+
+
+      <label for="btnSingUp" class="labelSingUp">Caso ainda não tenha uma conta</label>
+      <input id="btnSingUp" type="button" value="Cadastre-se">
+    </container>
+
+
+    <script src="https://kit.fontawesome.com/5794f13c3c.js" crossorigin="anonymous"></script>
+  </div>
+</body>
+</html>

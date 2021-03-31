@@ -1,0 +1,187 @@
+body{
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color:#282828;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin:0;
+}
+
+header img{
+  margin:auto;
+  height: 51px;
+}
+#layout{
+  width: 956px;
+  margin:auto;
+  padding-top: 46px;
+  display: flex;
+  flex-direction: column;
+}
+/*--- CONT 1 ---*/
+
+#cont1{
+  display:flex;
+  width: 100%;
+  position: relative;
+  margin-bottom: 36px;
+}
+
+#retRed{
+  width: 16px;
+  height: 40px;
+  background-color:#E41F27 ;
+}
+
+#nameUser{
+  font-size: 25px;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 13px;
+}
+
+#cont1 img{
+  width: 22px;
+  height: 22px;
+  align-self: center;
+}
+
+
+#search{
+  width: 422px;
+  height: 42px;
+  background-color: #DFDFDF;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  position: absolute;
+  right: 40px;
+  align-self: center;
+  font-size:22px;
+}
+
+#btnSearch{
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  padding:9px;
+  padding-bottom:10px;
+  background-color: #DFDFDF;
+  position: absolute;
+  right: 0;
+  align-self: center;
+}
+
+#banner{
+  width: 100%;
+  position: relative;
+}
+
+#nameBanner{
+  font-size: 25px;
+}
+
+#infoBanner{
+  width: 100%;
+  display:flex;
+  position: relative;
+}
+
+#infoBanner img{
+  width: 19px;
+  position: absolute;
+  right: 78px;
+  align-self: center;
+}
+#dateBanner{
+  font-size: 25px;
+  position: absolute;
+  right: 0px;
+}
+
+#imgBanner {
+  width: 956px;
+  margin:0;
+}
+
+#btnBanner{
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c2301f, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c2301f, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:white;
+  font-size: 25px;
+  border:none;
+  border-radius: 5px;
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 340px;
+  top: 270px;
+  box-shadow: 5px 5px 10px black;
+}
+
+#btnBanner:hover{
+  cursor: pointer;
+}
+
+
+#textLayout{
+  margin: auto;
+  justify-self: center;
+  font-size: 30px;
+  margin-top: 27px;
+  margin-bottom: 28px;
+}
+
+
+
+#nextEvents{
+  display: flex;
+  flex-grow: space-between;
+  text-align: center;
+}
+
+.namesEvents{
+  font-size: 22px;
+}
+
+.btnEvents{
+  width: 73px;
+  height: 27px;
+  
+  color: white;
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c2301f, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c2301f, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 3px;
+  border:none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  margin-top: 12px;
+  transition: 0.5s;
+}
+
+.btnEvents:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgb(63, 63, 63);
+}
+
+
+footer{
+  background-color: #282828;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 49px;
+  letter-spacing: 1.8px;
+  margin-top: 59px;
+}
